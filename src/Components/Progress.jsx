@@ -18,19 +18,13 @@ function Progress() {
       }
       setText(progressStartValue)
       setProgressID(progress);
-
-      
-      console.log(progressStartValue)
     },speed);
   }
 
-
   const pauseProgress=()=>{ 
-    console.log(progressID)
       clearInterval(progressID);
   }
   
-
   return (
     <>
         <div className='ProgressBarArea'>
